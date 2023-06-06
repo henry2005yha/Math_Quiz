@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to Math Quiz"
+        android:layout_margin="15dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Improve your child's Math skills with our Android app! With three levels of increasing difficulty, each with 10 questions, children can learn at their own pace. Level 0 has no time limit, while level 1 gives 20 seconds per question, and level 2 challenges with only 10 seconds per question. Try it now!"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_margin="15dp"/>
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#006ACAE1"
+        android:text="OK"
+        android:textAlignment="center"
+        android:textColor="#393939"
+        android:textStyle="bold"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>
